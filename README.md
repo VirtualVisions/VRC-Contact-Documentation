@@ -1,10 +1,14 @@
 # VRC-Contact-Documentation
+![Contact Icon](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Icon.png)
+
 The documentation for the up-to-date VRC-Contact audio system.
 
 ---
 # Base Tools
 
 ### Contact Audio Player
+![Contact Audio Player](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Audio%20Player.png)
+
 This is the main Audio Pool that is used by all Contact components. One of these must exist in the scene for them to function.
 
 | Variables | Description | Default |
