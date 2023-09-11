@@ -17,6 +17,8 @@ This is the main Audio Pool that is used by all Contact components. One of these
 | Source Count | The maximum amount of audio sources that will be spawned and pooled. | 64 |
 
 ### Contact Collision Object
+![Contact Collision Object](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Collision%20Object.png)
+
 This script is used to give a non-kinematic rigidbody collision sounds. It allows for three tiers of presets: Light, Medium, and Heavy collision type presets.
 
 **NOTE:** If the rigidbody is synced using VRChat's ObjectSync component, then for remote players, it will be treated as "Kinematic" and will not play any collision sounds for players who are not the owner of that object.
@@ -27,6 +29,8 @@ This script is used to give a non-kinematic rigidbody collision sounds. It allow
 | Max Distance | The maximum distance at which this collision sound can be heard. | 32 |
 
 ### Contact Footsteps
+![Contact Footsteps](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Footsteps.png)
+
 This is the all-in-one footsteps system, using an array of Presets to declare which sounds go with which object materials.
 
 | Variables | Description | Default |
@@ -39,6 +43,8 @@ This is the all-in-one footsteps system, using an array of Presets to declare wh
 | Presets | The array of **Footstep Presets** used to play audio clips based on materials the player is walking over. |  *Reference* |
 
 ### Contact Footstep Override
+![Contact Footstep Override](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Footstep%20Override.png)
+
 This acts as an override to the material lookup used by the Footsteps system. If this is found instead, it will use the provided preset.
 
 | Variables | Description | Default |
@@ -50,6 +56,8 @@ This acts as an override to the material lookup used by the Footsteps system. If
 # Presets
 
 ### Physics Preset
+![Contact Physics Preset](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Physics%20Preset.png)
+
 These presets are used for Contact Collision Objects. These store data that the objects reference and store at build time, letting it be used in VRChat.
 
 | Variables | Description | Default |
@@ -61,6 +69,8 @@ These presets are used for Contact Collision Objects. These store data that the 
 
 
 ### Surface Preset
+![Contact Surface Preset](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Surface%20Preset.png)
+
 This is the base form of the Footstep Presets. This is largely included as a way to expand on your own systems with your own presets, such as the included **Gun** demo.
 
 | Variables | Description | Default |
@@ -70,6 +80,8 @@ This is the base form of the Footstep Presets. This is largely included as a way
 
 
 ### Footstep Preset
+![Contact Footstep Preset](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Footstep%20Preset.png)
+
 These are the presets used by the Contact Footstep system, and includes all variables in Surface Preset, as well as those listed here.
 
 | Variables | Description | Default |
@@ -81,6 +93,8 @@ These are the presets used by the Contact Footstep system, and includes all vari
 # Demo Tools
 
 ### Contact Gunshots
+![Contact Gunshots](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Gunshots.png)
+
 This demo plays an audio clip at the position shot via the player using a VRCPickup. This clip changes depending on the material hit. Since no gunshot audio clips are included, the demo just uses the footstep sounds.
 
 | Variables | Description | Default |
@@ -91,6 +105,8 @@ This demo plays an audio clip at the position shot via the player using a VRCPic
 
 
 ### ContactDemo Play Sound At Point
+![ContactDemo Play Sound At Point](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/ContactDemo%20Play%20Sound%20At%20Point.png)
+
 This script is used for button objects, acting as the main demo for understanding how to interface with the **Contact Manager**.
 
 | Variables | Description | Default |
@@ -103,6 +119,8 @@ This script is used for button objects, acting as the main demo for understandin
 | Max Distance | The distance at which this clip will reach from the Point. | 32 |
 
 ### ContactDemo Reset Objects
+![ContactDemo Reset Objects](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/ContactDemo%20Reset%20Objects.png)
+
 A simple respawner for non-synced objects, letting the player observe the interactions of the Contact Collision Objects repeatedly.
 
 | Variables | Description | Default |
