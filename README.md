@@ -34,6 +34,13 @@ This is the all-in-one footsteps system, using an array of Presets to declare wh
 | Use Fallback Preset | If enabled, the footstep system will use the first Footstep Preset in the **Presets** array when no preset can be determined otherwise. If disabled, footsteps will continue to use the most recently selected Preset. | True |
 | Presets | The array of **Footstep Presets** used to play audio clips based on materials the player is walking over. |  *Reference* |
 
+### Contact Footstep Override
+This acts as an override to the material lookup used by the Footsteps system. If this is found instead, it will use the provided preset.
+
+| Variables | Description | Default |
+| ----------- | ----------- | ----------- |
+| Preset | The Footstep Preset used as a reference. | *Reference*|
+
 
 ---
 # Presets
