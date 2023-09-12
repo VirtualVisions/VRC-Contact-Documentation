@@ -1,7 +1,9 @@
 # VRC-Contact-Documentation
 ![Contact Icon](https://github.com/VirtualVisions/VRC-Contact-Documentation/blob/main/Images/Contact%20Icon.png)
 
-The documentation for the up-to-date VRC-Contact audio system.
+The documentation for the up-to-date Contact audio system.
+This system utilizes a pool of audio sources, making sure that it never plays too many audio clips at once.
+Utilizing this system is two included mechanics: Physics collision sounds, and Footstep sounds. Both of these systems require the dynamic use of lots of audio sources, and are not only great demos for this system, but are commonly requested systems for VRChat worlds.
 
 ---
 # Base Tools
